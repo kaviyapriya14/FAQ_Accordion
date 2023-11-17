@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>FAQ/Accordion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Frequently Asked Questions</h1>
+<div id="container">
+  <div class="accordion-item">
+    <div class="question" onclick="toggleAnswer(1)">What is vanilla js?</div>
+    <div class="answer" id="answer1">Vanilla JavaScript refers to using plain Javascript without any additional libraries or frameworks. The term became popular when Eric Wastl created the Vanilla JS site in 2012 as a joke. The site tries to bring attention to the fact that you can use just plain Javascript in many cases.</div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="question" onclick="toggleAnswer(2)">What is HTML?</div>
+    <div class="answer" id="answer2">HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the world wide web. HyperText allows a user to click a link and be redirected to a new page referenced by that link.</div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="question" onclick="toggleAnswer(3)">What is CSS?</div>
+    <div class="answer" id="answer3">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
